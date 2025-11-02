@@ -32,9 +32,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-)zv_%hxx8-p^$)0rv_a!x)2y&3oj1^6iud7qh%9kb7(b%#f-g2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['.onrender.com']
+ALLOWED_HOSTS = ['FoodShop_tm.onrender.com']
 
 
 # Application definition
@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'market.wsgi.application'
+WSGI_APPLICATION = 'FoodShop_tm.wsgi.application'
 
 
 # Database
